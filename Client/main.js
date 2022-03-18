@@ -59,10 +59,6 @@ fetch("https://localhost:5001/Bioskop/PreuzmiBioskope")
                                 })
                             })
                             let bioskop = new Funkcije(bioskopi, sale, filmovi, projekcije);
-                            // console.log(bioskopi);
-                            // console.log(sale);
-                            // console.log(filmovi);
-                            // console.log(projekcije);
                             bioskop.Crtaj(document.body);
                         })
                     })

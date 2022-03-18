@@ -1,12 +1,14 @@
 export class Bioskop{
 
-    constructor(id, naziv){
+    constructor(id, naziv)
+    {
         this.id = id;
         this.naziv = naziv;
         this.sale = [];
     }
 
-    DodajSalu(sala){
+    DodajSalu(sala)
+    {
         if(this.id === sala.bioskopid){
             this.sale.push(sala);
         }

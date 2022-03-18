@@ -10,7 +10,7 @@ export class Funkcije{
         this.cont2 = null;
         this.cont3 = null;
     }
-    //RezervisiSedista - btnRezervisi ; prikaziProjekcije - prikazProjekcija
+
 Crtaj(host){
 
     this.container = document.createElement("div");
@@ -280,7 +280,7 @@ Rezervacija(){
     input = this.CrtajInput(redEmail, "inputEmail");
 
     let redUpisi = this.cont2.querySelector(".redUpisi");
-    let btnUpisi = this.crtajDugme(redUpisi, "Upisi", "btnUpisi");
+    let btnUpisi = this.crtajDugme(redUpisi, "Dodaj", "btnUpisi");
     btnUpisi.onclick=(ev)=>this.DodajRezervaciju();
 }
 

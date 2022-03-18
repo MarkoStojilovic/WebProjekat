@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
+
 namespace Models
 {
     public class BioskopContext : DbContext

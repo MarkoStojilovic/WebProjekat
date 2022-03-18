@@ -23,7 +23,7 @@ INSERT INTO [dbo].[Sala]([Naziv], [Redova], [Sedista], [BioskopID])
 VALUES ('Scream', 15, 14, 2);
 
 INSERT INTO [dbo].[Sala]([Naziv], [Redova], [Sedista], [BioskopID])
-VALUES ('Pleasure', 11, 13, 3);
+VALUES ('Resurection', 11, 13, 3);
 
 INSERT INTO [dbo].[Film]([Naziv], [Godina], [Zanr], [GlavneUloge], [Reziser], [DuzinaTrajanja])
 VALUES ('Sonic The Hedgehog', 2020, 'Deciji, Komedija', 'LBen Schwartz, Collen OShaughnessey', 'Jeff Fowler', '99min');

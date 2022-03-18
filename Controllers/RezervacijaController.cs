@@ -67,7 +67,7 @@ namespace Projekat.Controllers
             {
                 var projekcija = await BioskopContext.Projekcije.FindAsync(IDProjekcije);
                 var gledalac = await BioskopContext.Gledaoci.FindAsync(IDGledaoca);
-                int cena = (RedoviISedista.Length/2)*300;
+                int cena = (RedoviISedista.Length/2)*350;
 
                 Rezervacija r = new Rezervacija
                 {

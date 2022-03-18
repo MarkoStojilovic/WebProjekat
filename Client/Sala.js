@@ -22,11 +22,11 @@ export class Sala{
         {
             method:"GET"
         }).then(p=>{
-                p.json().then(data1=>{
-                    data1.forEach(data2=>{
-                        data2.forEach(data3=>{
-                            data3.forEach(data4=>{
-                                    rezervisanaSedista.push(data4.brojSedista);
+                p.json().then(d1=>{
+                    d1.forEach(d2=>{
+                        d2.forEach(d3=>{
+                            d3.forEach(data=>{
+                                    rezervisanaSedista.push(data.brojSedista);
                                 })
                         })
                     })

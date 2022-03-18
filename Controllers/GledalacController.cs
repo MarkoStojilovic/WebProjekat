@@ -43,7 +43,7 @@ namespace Projekat.Controllers
                 return BadRequest("Nevalidan email!");
             }
             
-             try
+            try
             {
                 Gledalac gl = new Gledalac
                 {

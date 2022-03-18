@@ -1,6 +1,7 @@
 export class Projekcija{
     
-    constructor(id, datum, salaid, filmid){
+    constructor(id, datum, salaid, filmid)
+    {
         this.id = id;
         this.datum = datum;
         this.salaid = salaid;
@@ -8,7 +9,8 @@ export class Projekcija{
         this.rezervacije = [];
     }
 
-    DodajRezervaciju(rezervacija){
+    DodajRezervaciju(rezervacija)
+    {
         if(this.id === rezervacija.projekcija.id){
             this.rezervacije.push(rezervacija);
         }

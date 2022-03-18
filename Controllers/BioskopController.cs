@@ -43,7 +43,7 @@ namespace Projekat.Controllers
         [HttpGet]
         public async Task<ActionResult> PreuzmiSale()
         {
-             try
+            try
             {
                 var s1 = await BioskopContext.Sale
                 .Include(s => s.Bioskop)

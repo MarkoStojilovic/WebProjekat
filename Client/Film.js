@@ -1,6 +1,7 @@
 export class Film{
 
-    constructor(id, naziv, godina, zanr, glavneuloge, reziser, duzinatrajanja){
+    constructor(id, naziv, godina, zanr, glavneuloge, reziser, duzinatrajanja)
+    {
         this.id = id;
         this.naziv = naziv;
         this.godina = godina;
@@ -11,7 +12,8 @@ export class Film{
         this.projekcije = [];
     }
 
-    DodajProjekciju(projekcija){
+    DodajProjekciju(projekcija)
+    {
         if(this.id === projekcija.filmid){
             this.projekcije.push(projekcija);
         }

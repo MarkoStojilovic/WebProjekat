@@ -48,7 +48,7 @@ namespace Projekat.Controllers
         [HttpGet]
         public async Task<ActionResult> PreuzmiProjekcije()
         {
-             try
+            try
             {
                 var pr = await BioskopContext.Projekcije
                 .Include(p => p.Sala)
