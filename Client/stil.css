@@ -1,0 +1,203 @@
+.GlavniKontejner{
+    display:flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+html {
+    font-size: 100%;
+    background: url("popcorn.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+.Form{
+    display: flex;
+    flex-direction: column;
+}
+
+#cont1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-right: 20px;
+}
+
+#cont2{
+    display: flex;
+    margin-top: 120px;
+    justify-items: left;
+}
+
+#cont3{
+    display: flex;
+    margin-top: 120px;
+    flex: 10 10 200px;
+}
+
+.Sala{
+    justify-content:right;
+}
+
+.redPlatno{
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    font-size: 25px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.redSalaPrazno{
+    height: 15px;
+}
+
+.redSale{
+    display: flex;
+}
+
+.redSala{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.redPrikazProjekcija{
+    display: flex;
+    justify-content:center;
+    flex-wrap: nowrap;
+}
+
+.redRezervisi{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.redUpisi, .redIzmeni, .redObrisi{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.redNazivSala{
+    display: flex;
+    justify-content: center;
+}
+
+.inputIme, .inputPrezime, .inputEmail{
+    margin: 16px;
+    justify-content: flex-end;
+    padding: 2px;
+}
+
+.redIme, .redPrezime, .redEmail{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    margin: 5px;
+}
+
+.redBioskop, .redFilm, .redProjekcija{
+    display: flex;
+    margin: 15px;
+}
+
+.lblBtnRezervacija{
+    width: 90px;
+    font-size: 22px;
+}
+
+.lblBrojReda{
+    width: 20px;
+}
+
+label{
+    margin: 3px;
+    font-size: 25px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.labelaNazivSala{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.labelBioskop, .labelFilm, .labelProjekcija{
+    display: flex;
+    width: 120px;
+    justify-content: flex-end;
+}
+
+.btnSala{
+    width: 40px;
+    height: 30px;
+    margin: 2px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 2px;
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
+.btnUpisi, .btnIzmeni, .btnObrisi{
+    width: 120px;
+    height: 30px;
+    font-size: 21px;
+    background-color:rgb(46, 74, 128);
+    margin: 10px;
+    font-weight: bold;
+}
+
+.btnObrisi{
+    background-color:rgb(248, 76, 76);
+}
+
+.btnIzmeni{
+    background-color: rgb(209, 241, 92);
+}
+
+.btnRezervisi, .btnPrikazProjekcija{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 35px;
+    background-color:whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btnRezervisi{
+    margin-bottom: 75px;
+    margin-left: 100px;
+}
+
+.btnIzaberiBioskop, .btnIzaberiFilm, .btnIzaberiProjekciju{
+    width: 60px;
+    height: 34px;
+    margin-left: 15px;
+    background-color:rgb(176, 238, 253);
+    font-weight: bold;
+}
+
+.selectBioskop, .selectFilm, .selectProjekcija{
+    margin: 2px;
+    background-color:rgb(176, 238, 253);
+    font-size: 18px;
+    width: 243px;
+    height: 30px;
+}
+
+
+.tabela{
+    background-color:whitesmoke;
+}
+
+table,tr,th, td{
+    border: 1px solid black;
+
+}
+
+table
+{
+    border-collapse: collapse; 
+}
